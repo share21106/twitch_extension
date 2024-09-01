@@ -1,0 +1,138 @@
+/******************* 
+Global Styles 
+*******************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; }
+
+* { outline: none; }
+*, ::after, ::before {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html { min-height: 100%; position: relative; }
+body { background: #fff; font-family:  'Open Sans', sans-serif; overflow-x: hidden; color: #67757c; font-size: 16px; line-height: 1; }
+/* Common CSS
+========================================================================== */
+ol, ul { list-style: none; }
+
+a, .btn { transition: all 0.5s ease; }
+a:active, a:hover, a:focus, .btn:focus, .btn:active, .btn:hover { outline: 0;}
+a { color: #0275d8; text-decoration: none; }
+a:focus, a:hover { color: #1a0dab; text-decoration: underline; }
+a.link { text-decoration: underline; }
+a.link:hover {   text-decoration: none; }
+
+b, strong { font-weight: bold; } 
+small { font-size: 80%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; } 
+sub { bottom: -0.25em; } 
+
+img { border: 0; vertical-align: middle; } 
+.img-responsive { margin: auto; }
+
+hr { box-sizing: content-box; height: 0; }
+
+*:focus { outline: 0; }
+
+h1, h2 { font-weight: bold; }
+
+svg:not(:root) { overflow: hidden; }
+
+html {
+height: 100%;
+}
+body {
+min-height: 100%;
+}
+
+/*******************
+Headings
+*******************/
+.main-Page{     background: url(../images/bg_sweet.jpg);
+height: 500px;
+background-size: 908px;
+background-repeat: no-repeat;
+background-position: top right;
+padding: 4em 418px 0 30px;
+margin-bottom: 30px; }
+.home-detail .logo {
+max-width: 413px;
+margin-bottom: 40px;
+}
+
+.home-detail .logo img {
+max-width: 100%;
+}
+
+.home-detail {
+max-width: 540px;
+margin: auto;
+}
+
+.home-detail .text {
+font-size: 28px;
+color: #4f4f4f;
+line-height: 1.4;
+font-weight: bold;
+}
+
+.main-Page .button  {margin: 50px 0 50px; overflow: visible;
+}
+.rating {
+margin-bottom: 15px;
+}
+.rating img {
+width: 22px;
+margin-right: 2px;
+}
+
+
+.smalltxt {
+line-height: 1.8;
+color: #cecece;
+}
+
+.smalltxt img {vertical-align: top;margin-left: 12px;}
+
+
+.indexv2 .home-detail {
+float: right;
+}
+
+.indexv2 .main-Page {
+padding-right: 530px;
+}
+@media (max-width: 1100px){
+
+
+.main-Page {
+background-size: 808px;}
+
+}
+@media (max-width: 980px){
+
+
+.main-Page {
+background-size: 608px;    padding-right: 397px;}
+.indexv2 .main-Page {
+padding-right: 397px;
+}
+}
+@media (max-width: 767px){
+
+
+.main-Page {    background-size: 470px;
+padding-right: 30px;}
+.indexv2 .main-Page {
+padding-right: 30px;
+}
+
+}
+@media (max-width: 480px){
+
+
+.main-Page img{ max-width: 100%;}
+
+}
+

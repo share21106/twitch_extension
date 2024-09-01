@@ -1,0 +1,25 @@
+.controls {
+    padding: 10px;
+}
+
+.channel-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.channel-logo.offline {
+    filter: grayscale(100%);
+}
+
+.controls .undo-message {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline;
+    visibility: hidden;
+}
+
+.channel-notifications-options .control-wrapper {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
